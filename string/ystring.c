@@ -1,13 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-
-
-// ystring = Yespa's string :)
-typedef struct {
-    char* data;
-    int length;
-}ystring;
+#include "ystring.h"
 
 
 
@@ -119,7 +112,3 @@ ystring* string_concatenate(ystring* left, ystring* right){
     return result;
 }
 
-
-int main(void) {
-    return 0;
-}
